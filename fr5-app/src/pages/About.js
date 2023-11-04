@@ -26,9 +26,9 @@ const AboutUsPage = () => {
         </Col>
       </Row>
 
-      <Row>
-        <h2>Our Team</h2>
-        {/* Map over your team members here */}
+      {/* <Row>
+        <h2>Our Team</h2> */}
+        {/* Map over your team members here
         {Object.entries(teamImages).map(([key, imageSrc]) => (
           <Col md={4} className="mb-4" key={key}>
             <Card>
@@ -42,7 +42,7 @@ const AboutUsPage = () => {
             </Card>
           </Col>
         ))}
-      </Row>
+      </Row> */}
     </Container>
   </>
   );

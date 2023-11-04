@@ -1,4 +1,7 @@
-* {}
+* {
+
+  font-size: 16px;
+}
 
 .display--heading {
   font-family: 'Paralucent', 'sans-serif';
@@ -16,7 +19,7 @@ body {
   font-family: 'Open Sans', 'Arial', 'sans-serif';
 }
 
-/* Brand Pallete */
+/* brandPalette.css */
 :root {
   --color-white: #FEFEFE;
   --color-light-teal: #91BaB5;
@@ -29,7 +32,6 @@ body {
 .background-dark-teal {
   background-color: var(--color-dark-teal);
 }
-
 
 .text-white {
   color: var(--color-white);
@@ -65,6 +67,10 @@ body {
 .bg-dark-teal {
   background-color: var(--color-dark-teal);
 }
+
+btn-dark-teal
+
+
 
 .App {
   text-align: center;
@@ -182,25 +188,18 @@ body {
     @include bg-color(#e9ecef);
     border-radius: .3rem;
   }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
+
+  .nav {
+    font-size: 2em;
+
+    &-link {
+
+      padding: 0 2em;
+
     }
-    to {
-      transform: rotate(360deg);
-    }
   }
   
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+  
+  
+  
 }
