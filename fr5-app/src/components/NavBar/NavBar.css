@@ -1,0 +1,43 @@
+/* NavBarStyles.css */
+
+/* Background color for the navbar */
+.navbar-custom {
+    background-color: #0C9076; /* Dark green for the navbar background */
+  }
+  
+  /* Brand and link styles */
+  .navbar-brand-custom, .nav-link-custom {
+    color: #FEFEFE; /* White color for text */
+  }
+  
+  /* Hover state for links */
+  .nav-link-custom:hover, .navbar-brand-custom:hover, .nav-dropdown-custom:hover {
+    color: #1DAB8A; /* Lighter green for hover state */
+  }
+  
+  /* Dropdown menu styling */
+  .nav-dropdown-custom {
+    background-color: #91BaB5; /* Light blue for the dropdown background */
+  }
+  
+  /* Navbar toggle color */
+  .navbar-toggler-custom {
+    border-color: #E0E7E6; /* Light grey for the navbar toggler */
+  }
+  
+  /* This class could be added to active link (if needed) */
+  .active-nav-link {
+    color: #1DAB8A; /* Lighter green to indicate active state */
+  }
+
+
+
+  .navbar-brand-now {
+    font-weight: bold;
+    font-style: italic;
+    color: green;
+
+  }
+
+ 
+  
