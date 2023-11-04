@@ -1,3 +1,21 @@
+* {}
+
+. .display--heading {
+  font-family: 'Paralucent', 'sans-serif';
+  color: var(--color-dark-teal);
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Open Sans', 'san-serif';
+}
+
+body {
+  font-family: 'Open Sans', 'Arial', 'sans-serif';
+}
+
 /* brandPalette.css */
 :root {
   --color-white: #FEFEFE;
@@ -12,19 +30,37 @@
   background-color: var(--color-dark-teal);
 }
 
-.text-teal {
-  color: var(--color-teal);
+.text-white {
+  color: var(--color-white);
+}
+
+.text-light-teal {
+  color: var(--color-light-teal);
+}
+
+.text-light-gray {
+
+  color: var(--color-light-grey);
+
+}
+
+.text-dark-teal {
+
+  color: var(--color-dark-teal)
 }
 
 .bg-white {
   background-color: var(--color-white);
 }
+
 .bg-light-teal {
   background-color: var(--color-light-teal);
 }
+
 .bg-light-grey {
   background-color: var(--color-light-grey);
 }
+
 .bg-dark-teal {
   background-color: var(--color-dark-teal);
 }
@@ -75,6 +111,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

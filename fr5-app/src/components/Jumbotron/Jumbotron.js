@@ -11,7 +11,7 @@ function Jumbotron() {
       <p className="col-md-8 fs-4">
         Future Ready Five is the leading collective impact organization focused on kindergarten readiness in Franklin County...
       </p>
-      <Button className="btn btn-primary btn-lg" type="button">
+      <Button className="btn btn--dark-teal btn-lg" type="button">
         Learn more
       </Button>
     </div>
