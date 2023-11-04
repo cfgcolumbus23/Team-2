@@ -1,6 +1,6 @@
 // App.js
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './App.scss';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar.js';
@@ -11,11 +11,12 @@ import About from './pages/About.js';
 // import Contact from './pages/Contact.js';
 
 const App = () => {
-  return (
+  return(
     <>
     <Router>
       <NavBar />
       <Routes>
+
         <Route path="/Home" element={<Home />} />
         {/* The following routes are commented out but follow the same pattern */}
       <Route path="/about" element={<About />} />

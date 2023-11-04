@@ -9,7 +9,7 @@ const teamImages = {
   // ... other team members
 };
 
-const HomeUsPage = () => {
+const Home = () => {
   return (
     <>
        
@@ -19,4 +19,4 @@ const HomeUsPage = () => {
   );
 };
 
-export default HomeUsPage;
+export default Home;
